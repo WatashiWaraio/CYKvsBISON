@@ -1,8 +1,8 @@
-for i in $(seq 1500000 500000 5900000)
+for i in $(seq 50 50 499)
 do
     echo -n "$i,"
 done
-echo 6000000
+echo 500
 
 for iteracion in {1..10}
 do
