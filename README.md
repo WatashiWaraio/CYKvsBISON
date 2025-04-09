@@ -1,8 +1,8 @@
-# 🧠 Análisis Comparativo: CYK vs Bison
+# 🧠Análisis Comparativo: CYK vs Bison
 
 Este proyecto presenta un análisis comparativo entre el algoritmo **CYK (Cocke–Younger–Kasami)** y el generador de analizadores sintácticos **Bison**, aplicados sobre gramáticas en Forma Normal de Chomsky (**CNF**). El estudio incluye evaluación teórica y pruebas empíricas de rendimiento realizadas en un entorno controlado.
 
-## 🧩 Descripción
+## 🧩Descripción
 
 Se comparan dos enfoques de análisis sintáctico:
 - **CYK**: Algoritmo basado en programación dinámica para gramáticas en CNF. Complejidad teórica: `O(n^3)`.
@@ -31,7 +31,7 @@ sudo apt install build-essential flex bison
 brew install flex bison
 ```
 
-## 📘 Gramática en forma normal de Chomsky (CNF) para la comparación
+## 📘Gramática en forma normal de Chomsky (CNF) para la comparación
 
 ```
 OPMUL -> * | /
@@ -50,11 +50,11 @@ F -> id | num | PARI PARENCIERRE
 PARENCIERRE -> E PARD
 ```
 
-# 🚀 Ejecución de los analizadores
+# 🚀Ejecución de los analizadores
 
 Ingresar a la carpeta la cual queremos realizar las pruebas.
 
-##🔹 CYK
+## 🔹CYK
 Utilizando MakeFile ejecutamos el siguiente comando para ejecutar la compilación:
 ```
 make analizador
@@ -69,7 +69,7 @@ make clean
 ```
 ⚠️ El algoritmo CYK fue implementado en C. Presenta un crecimiento cúbico (O(n^3)) por lo que manejar cadenas largas puede generar segmentación si no se optimiza la memoria.
 
-##🔹 Bison
+## 🔹Bison
 Utilizando MakeFile ejecutamos el siguiente comando para ejecutar y compilar:
 ```
 make analizador
@@ -86,9 +86,10 @@ make clean
 
 # 📉 Gráficas de comparación
 
-##🔹 CYK
+## 🔹CYK
 ![image](https://github.com/user-attachments/assets/c4f41c46-0f7a-4e4b-a1a3-531d22ee3f6f)
 
-##🔹 Bison
+## 🔹Bison
 ![image](https://github.com/user-attachments/assets/d10221cf-2d00-45f8-b010-1e44408d4968)
 
+# 💬Conclusiones:
