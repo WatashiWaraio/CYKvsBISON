@@ -87,9 +87,11 @@ make clean
 # 📉 Gráficas de comparación
 
 ## 🔹CYK
+Ecuación de regresión cúbica: y = 0.02x^3 + 0.06x^2 + 0.10x + 0.04
 ![image](https://github.com/user-attachments/assets/c4f41c46-0f7a-4e4b-a1a3-531d22ee3f6f)
 
 ## 🔹Bison
+Ecuación de regresión: y = 0.07x + 0.19
 ![image](https://github.com/user-attachments/assets/d10221cf-2d00-45f8-b010-1e44408d4968)
 
 # 💬Conclusiones:
