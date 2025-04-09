@@ -93,3 +93,6 @@ make clean
 ![image](https://github.com/user-attachments/assets/d10221cf-2d00-45f8-b010-1e44408d4968)
 
 # 💬Conclusiones:
+- Bison muestra un rendimiento superior en comparación con CYK, especialmente a medida que aumenta la cantidad de expresiones. Mientras que CYK presenta un crecimiento exponencial en el tiempo de ejecución, lo que lo hace menos escalable frente a Bison, cuyo comportamiento es más lineal.
+- La variabilidad de los tiempos también es menor en Bison, indicando mayor estabilidad en sus ejecuciones. Estos resultados sugieren que Bison es más adecuado para aplicaciones donde se requiere analizar grandes volúmenes de expresiones de forma rápida y consistente.
+- Además, los datos teóricos sobre la complejidad de cada algoritmo se ven reflejados empíricamente en sus respectivas gráficas de rendimiento. En el caso de Bison, se observa un comportamiento lineal, coherente con su enfoque optimizado de análisis descendente. Por otro lado, el algoritmo CYK presenta una curva cúbica, lo cual es consistente con su complejidad teórica de orden O(n³). Esta diferencia evidencia que, aunque CYK garantiza análisis sintáctico para cualquier gramática en CNF, su costo computacional es significativamente mayor frente a soluciones especializadas como Bison.
