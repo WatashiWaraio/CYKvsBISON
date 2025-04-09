@@ -26,11 +26,10 @@ sudo apt update
 sudo apt install build-essential flex bison
 ```
 # Para MacOS:
-
+⚠️ Nota:Debe tener Homebrew instalado y simplemente ejecutar este comando.
 ```
 brew install flex bison
 ```
-⚠️ Nota:Si ya tienes Homebrew instalado, simplemente ejecuta los anteriores comandos.
 
 ## 📘 Gramática en forma normal de Chomsky (CNF) para la comparación
 
@@ -60,11 +59,11 @@ Utilizando MakeFile ejecutamos el siguiente comando para ejecutar la compilació
 ```
 make analizador
 ```
-Luego ya generado el archivo ejecutable realizamos el comando para su ejecucion con las expresiones:
+Luego ya generado el ejecutable realizamos el comando para su ejecución con las expresiones:
 ```
 cat <archivo> | ./analizador
 ```
-Si se requiere eliminar el archivo generado (ejecutable), con el siguiente comando:
+Si se requiere eliminar el ejecutable, con el siguiente comando:
 ```
 make clean
 ```
@@ -86,4 +85,10 @@ make clean
 ✅ Bison es eficiente incluso para cadenas largas, mostrando un comportamiento más lineal en tiempo de ejecución.
 
 # 📉 Gráficas de comparación
+
+##🔹 CYK
+![image](https://github.com/user-attachments/assets/c4f41c46-0f7a-4e4b-a1a3-531d22ee3f6f)
+
+##🔹 Bison
+![image](https://github.com/user-attachments/assets/d10221cf-2d00-45f8-b010-1e44408d4968)
 
