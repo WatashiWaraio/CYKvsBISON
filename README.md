@@ -53,14 +53,37 @@ PARENCIERRE -> E PARD
 
 # 🚀 Ejecución de los analizadores
 
-🔹 CYK
+Ingresar a la carpeta la cual queremos realizar las pruebas.
 
-⚠️ Nota: El algoritmo CYK fue implementado en C. Presenta un crecimiento cúbico (O(n^3)) por lo que manejar cadenas largas puede generar segmentación si no se optimiza la memoria.
+##🔹 CYK
+Utilizando MakeFile ejecutamos el siguiente comando para ejecutar la compilación:
+```
+make analizador
+```
+Luego ya generado el archivo ejecutable realizamos el comando para su ejecucion con las expresiones:
+```
+cat <archivo> | ./analizador
+```
+Si se requiere eliminar el archivo generado (ejecutable), con el siguiente comando:
+```
+make clean
+```
+⚠️ El algoritmo CYK fue implementado en C. Presenta un crecimiento cúbico (O(n^3)) por lo que manejar cadenas largas puede generar segmentación si no se optimiza la memoria.
 
-🔹 Bison
-
+##🔹 Bison
+Utilizando MakeFile ejecutamos el siguiente comando para ejecutar y compilar:
+```
+make analizador
+```
+Luego ya generado el archivo ejecutable realizamos el comando para su ejecucion con las expresiones:
+```
+cat <archivo> | ./analizador
+```
+Si se requiere eliminar los archivos generados por flex y bison, con el siguiente comando:
+```
+make clean
+```
 ✅ Bison es eficiente incluso para cadenas largas, mostrando un comportamiento más lineal en tiempo de ejecución.
 
 # 📉 Gráficas de comparación
-
 
